@@ -1,0 +1,22 @@
+{
+  "name": "test_iwa_20221201",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaartenDC210/Test_iwa_20221201.git"
+  },
+  "author": "mdecat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaartenDC210/Test_iwa_20221201/issues"
+  },
+  "homepage": "https://github.com/MaartenDC210/Test_iwa_20221201#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
