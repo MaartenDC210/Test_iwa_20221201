@@ -69,6 +69,10 @@ function selectMovie() {
   printMovieDetails(selectedMovie);
 }
 
+function calculateTotalPrice(visitorsWithPrice){
+  visitorsWithPrice.forEach( (v) => {totalAmount += v.price});
+}
+
 
 showMovieTitles(movies);
 
@@ -111,9 +115,7 @@ visitors.forEach( (visitor) => {
 })
 
 let totalAmount = 0;
-function calculateTotalPrice(visitorsWithPrice){
-  visitorsWithPrice.forEach( (v) => {totalAmount += v.price});
-}
+
 calculateTotalPrice(visitorsWithPrice)
 console.log(`The total price is ${totalAmount}$.`);
 
