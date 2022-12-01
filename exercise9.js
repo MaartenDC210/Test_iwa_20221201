@@ -109,11 +109,3 @@ const visitorsWithPrice = [];
 visitors.forEach( (visitor) => {
   visitorsWithPrice.push({...visitor, price: visitor.isChild ? 7 : 11});
 })
-
-let totalAmount = 0;
-function calculateTotalPrice(visitorsWithPrice){
-  visitorsWithPrice.forEach( (v) => {totalAmount += v.price});
-}
-calculateTotalPrice(visitorsWithPrice)
-console.log(`The total price is ${totalAmount}$.`);
-

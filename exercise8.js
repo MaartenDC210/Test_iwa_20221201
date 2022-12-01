@@ -104,3 +104,4 @@ for (let i = 0 ; i < amountOfChildren; i++) {
   let visitorName = readLine.question(`Give the name of child ${i + 1}:`);
   visitors.push({name: visitorName, isChild: true});
 }
+
